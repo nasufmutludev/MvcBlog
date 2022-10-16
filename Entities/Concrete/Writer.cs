@@ -1,6 +1,8 @@
+using Core.Entities;
+
 namespace Entities.Concrete;
 
-public class Writer
+public class Writer:IEntity
 {
     public int Id { get; set; }
     public string WriterName { get; set; }

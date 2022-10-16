@@ -1,6 +1,8 @@
+using Core.Entities;
+
 namespace Entities.Concrete;
 
-public class About
+public class About : IEntity
 {
     public int Id { get; set; }
     public string AboutDetails1 { get; set; }

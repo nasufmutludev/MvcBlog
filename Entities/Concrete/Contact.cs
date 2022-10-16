@@ -1,6 +1,8 @@
+using Core.Entities;
+
 namespace Entities.Concrete;
 
-public class Contact
+public class Contact:IEntity
 {
     public int Id { get; set; }
     public string ContactUserName { get; set; }

@@ -1,6 +1,8 @@
+using Core.Entities;
+
 namespace Entities.Concrete;
 
-public class Blog
+public class Blog:IEntity
 {
     public int Id { get; set; }
     public string BlogTitle { get; set; }
